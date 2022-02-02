@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&family=Supermercado+One&display=swap");
+
+* {
+	font-family: Helvetica, sans-serif;
+}
+
+body {
+	text-align: center;
+	width: 100%;
+}
+
+main {
+	margin: 100px;
+}
+
+h1 {
+	font-size: 65px;
+	font-family: "Supermercado One", cursive;
+}
+
+#message {
+	font-size: 20px;
+	color: red;
+}
+
+label {
+	font-size: 20px;
+	display: block;
+	margin-bottom: 15px;
+}
+
+input {
+	font-size: 20px;
+}
+
+input[type="text"] {
+	padding: 10px;
+	width: 400px;
+	border-radius: 5%;
+}
+
+input[type="text"]:focus-visible {
+	outline: none;
+}
+
+#button-base {
+	margin: 40px auto 0 auto;
+	background-color: rgb(1, 60, 123);
+	border-radius: 5px;
+	border: none;
+	padding: 0;
+	outline-offset: 4px;
+	width: 120px;
+}
+
+input[type="submit"] {
+	cursor: pointer;
+	padding: 10px 25px;
+	width: 120px;
+	border-radius: 5px;
+	border: none;
+	background-color: rgb(57, 162, 254);
+	transform: translateY(-6px);
+}
+
+input[type="submit"]:active {
+	transform: translateY(-1px);
+}
+
+#short-url-p {
+	font-size: 20px;
+}
+
+#short-url-p a {
+	color: black;
+}
